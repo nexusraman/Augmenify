@@ -14,7 +14,7 @@ const MainSection = () => {
                     buttonSize='btn--large'>Get Started</Button>
                 <Button className='btns' buttonStyle='btn--primary'
                     buttonSize='btn--large'>
-                    Products
+                    View Products
                 </Button>
             </div>
         </div>
