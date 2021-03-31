@@ -7,7 +7,7 @@ const MainSection = () => {
     return (
         <div className='main-container'>
             <video src='/videos/video.mp4' autoPlay loop muted />
-            <h1>Augmenify</h1>
+            <h2>Augmenify</h2>
             <p>Welcome</p>
             <div className='main-btns'>
                 <Button className='btns' buttonStyle='btn--outline'

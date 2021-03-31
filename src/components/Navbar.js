@@ -7,14 +7,29 @@ import './Navbar.css';
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
+    const [navbar, setNavbar] = useState(false);
+    const [navbarLogo, setNavbarLogo] = useState(false);
+
+
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
+    const changeBackground = () => {
+        if (window.scrollY >= 80) {
+            setNavbar(true);
+            setNavbarLogo(true);
+        }
+        else {
+            setNavbar(false);
+            setNavbarLogo(false);
+        }
+    }
+    window.addEventListener('scroll', changeBackground);
     return (
         <>
-            <nav className="navbar">
+            <nav className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/" className={navbarLogo ? 'navbar-logo nav-active' : 'navbar-logo'} onClick={closeMobileMenu}>
                         <img src={logo} alt="Logo" />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
