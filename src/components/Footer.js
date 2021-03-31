@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css';
 import Button from './Button';
 import { Link } from 'react-router-dom';
-import logo from './augmenify_logo.png';
 
 function Footer() {
     return (
@@ -35,7 +34,6 @@ function Footer() {
                         <Link to='/'>Testimonials</Link>
                         <Link to='/'>Careers</Link>
                         <Link to='/'>Investors</Link>
-                        <Link to='/'>Terms of Service</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
@@ -66,7 +64,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            <img src={logo} alt="Logo" />
+                            <img src={process.env.PUBLIC_URL + '/images/augmenify_logo.png'} alt="Logo" />
                         </Link>
                     </div>
                     <small className='website-rights'>Augmenify © 2021</small>

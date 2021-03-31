@@ -18,12 +18,16 @@ video {
   object-fit: contain;
 }
 
-.main-container > h2 {
+.main-container h2 {
   color: #fff;
   font-size: 80px;
 }
 
-.main-container > p {
+.main-container p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
