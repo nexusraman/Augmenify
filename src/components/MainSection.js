@@ -13,6 +13,7 @@ const MainSection = () => {
     return (
         <div className='main-container'>
             <video src='/videos/video.mp4' autoPlay loop muted />
+             {/* <img src={process.env.PUBLIC_URL + '/images/mobile.jpg'}></img> */}
             <Collapse in={checked} {...(checked ? { timeout: 2000 } : {})}>
                 <h2>Augmenify</h2>
                 <p>Welcome</p>
