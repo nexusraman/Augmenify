@@ -65,13 +65,9 @@ const Navbar = () => {
                         </li>
                         
                     </ul>
-<<<<<<< HEAD
-                    {button && <Button buttonStyle='btn--outline'>Contact Us</Button>}
-=======
                     <Button buttonStyle='btn--outline'>
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>Contact</Link>
                     </Button>
->>>>>>> 7476ae44766c2677cf363aefa4aaef538352437d
                 </div>
             </nav>
         </>
