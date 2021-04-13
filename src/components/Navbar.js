@@ -63,11 +63,11 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link to='/products' className='nav-links' onClick={closeMobileMenu}>Products</Link>
                         </li>
-                        
+
                     </ul>
-                    <Button buttonStyle='btn--outline'>
+                    {button && <Button buttonStyle='btn--outline'>
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>Contact</Link>
-                    </Button>
+                    </Button>}
                 </div>
             </nav>
         </>
