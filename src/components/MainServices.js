@@ -13,13 +13,14 @@ import {
     DialogTitle,
     DialogContent,
     DialogActions,
-    AppBar,
+    Button,
     withStyles
 } from '@material-ui/core/'
 
 const styles = {
     root: {
         flexGrow: 1,
+        marginBottom: '20px'
     },
     appbar: {
         alignItems: 'center',
@@ -37,17 +38,14 @@ function MainServices(props) {
 
             <Grid container className='section pb_45 pt_45'>
                 <div className={classes.root}>
-                    <AppBar
-                        className={classes.appbar}
-                        color="default"
-                        position="static">
-                        Services
-                    </AppBar>
+                    <Typography variant='h2' align='center' margin='20px'>
+                        Our Services
+                    </Typography>
                 </div>
 
                 <Grid item xs={12}>
                     <Grid container spacing={5}>
-                        {Services.map((service, index) => (
+                        {Services.map((service) => (
                             <>
                                 <Grid item xs={12} sm={4}>
                                     <Grow in timeout={2000}>
@@ -80,7 +78,9 @@ function MainServices(props) {
                     </DialogContent>
                     <DialogActions className='projectDialog_actions'>
                         {projectDialog?.links?.map(link => (
-                            <a href={link.link} key={projectDialog.id} target='_blank' rel="noreferrer">{link.icon}</a>
+                            <a href={link.link} key={link.title} target='_blank' rel="noreferrer"><Button variant="contained" color="primary" href={link.link}>
+                                Read More
+                          </Button></a>
                         ))}
                     </DialogActions>
                 </Dialog>

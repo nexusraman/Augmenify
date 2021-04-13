@@ -13,12 +13,12 @@ const MainSection = () => {
     return (
         <div className='main-container'>
             <video src='/videos/video.mp4' autoPlay loop muted />
-            <Collapse in={checked} {...(checked ? { timeout: 500 } : {})}>
+            <Collapse in={checked} {...(checked ? { timeout: 2000 } : {})}>
                 <h2>Augmenify</h2>
                 <p>Welcome</p>
             </Collapse>
             <Fade in={checked}
-                {...(checked ? { timeout: 3000 } : {})}
+                {...(checked ? { timeout: 6000 } : {})}
             >
                 <div className='main-btns'>
                     <Button className='btns' buttonStyle='btn--outline'

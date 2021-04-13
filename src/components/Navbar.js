@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button';
 import './Navbar.css';
@@ -7,10 +7,25 @@ const Navbar = () => {
     const [click, setClick] = useState(false);
     const [navbar, setNavbar] = useState(false);
     const [navbarLogo, setNavbarLogo] = useState(false);
+    const [button, setButton] = useState(true);
 
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
+    const showButton = () => {
+        if (window.innerWidth <= 960) {
+            setButton(false);
+        }
+        else {
+            setButton(true);
+        }
+    }
+
+    useEffect(() => {
+        showButton();
+    }, []);
+
 
     const changeBackground = () => {
         if (window.scrollY >= 80) {
@@ -22,6 +37,8 @@ const Navbar = () => {
             setNavbarLogo(false);
         }
     }
+
+    window.addEventListener('resize', showButton);
     window.addEventListener('scroll', changeBackground);
     return (
         <>
@@ -47,7 +64,7 @@ const Navbar = () => {
                             <Link to='/products' className='nav-links' onClick={closeMobileMenu}>Products</Link>
                         </li>
                     </ul>
-                    <Button buttonStyle='btn--outline'>Contact Us</Button>
+                    {button && <Button buttonStyle='btn--outline'>Contact Us</Button>}
                 </div>
             </nav>
         </>
