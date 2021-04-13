@@ -5,6 +5,7 @@ import Contact from './components/pages/Contact';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
 function App() {
   return (
     <div className='App'>
@@ -16,6 +17,10 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/products' exact component={Products} />
           <Route path='/contact' exact component={Contact} />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7476ae44766c2677cf363aefa4aaef538352437d
         </Switch>
       </Router>
     </div>
