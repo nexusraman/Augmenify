@@ -150,12 +150,12 @@ body {
 
 .left .detail h2 {
   margin-top: 25px;
-  color: #888888;
+  color: white;
 }
-
 .left .detail p {
   margin-top: 5px;
   text-align: left;
+  color: white;
 }
 .no-bullets {
   list-style-type: none;
