@@ -1,0 +1,1093 @@
+[{
+  "_id": {
+    "$oid": "605f909feff26847f4c0ae19"
+  },
+  "name": "img1.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "img1_bfecfb81aa",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 178.61,
+  "width": 1536,
+  "height": 1024,
+  "url": "/uploads/img1_bfecfb81aa.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_img1.jpg",
+      "hash": "thumbnail_img1_bfecfb81aa",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 9.89,
+      "path": null,
+      "url": "/uploads/thumbnail_img1_bfecfb81aa.jpg"
+    },
+    "large": {
+      "name": "large_img1.jpg",
+      "hash": "large_img1_bfecfb81aa",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 667,
+      "size": 92.72,
+      "path": null,
+      "url": "/uploads/large_img1_bfecfb81aa.jpg"
+    },
+    "medium": {
+      "name": "medium_img1.jpg",
+      "hash": "medium_img1_bfecfb81aa",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 500,
+      "size": 57.9,
+      "path": null,
+      "url": "/uploads/medium_img1_bfecfb81aa.jpg"
+    },
+    "small": {
+      "name": "small_img1.jpg",
+      "hash": "small_img1_bfecfb81aa",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 333,
+      "size": 31.07,
+      "path": null,
+      "url": "/uploads/small_img1_bfecfb81aa.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "605f90cbeff26847f4c0ae1b"
+      },
+      "ref": {
+        "$oid": "605f90cbeff26847f4c0ae1a"
+      },
+      "kind": "Products",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-27T20:07:59.891Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-27T20:08:43.044Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "605f9119eff26847f4c0ae1c"
+  },
+  "name": "img2.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "img2_ad6336687b",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 479.73,
+  "width": 1536,
+  "height": 1536,
+  "url": "/uploads/img2_ad6336687b.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_img2.png",
+      "hash": "thumbnail_img2_ad6336687b",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 156,
+      "height": 156,
+      "size": 12.82,
+      "path": null,
+      "url": "/uploads/thumbnail_img2_ad6336687b.png"
+    },
+    "large": {
+      "name": "large_img2.png",
+      "hash": "large_img2_ad6336687b",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 1000,
+      "height": 1000,
+      "size": 256.05,
+      "path": null,
+      "url": "/uploads/large_img2_ad6336687b.png"
+    },
+    "medium": {
+      "name": "medium_img2.png",
+      "hash": "medium_img2_ad6336687b",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 750,
+      "height": 750,
+      "size": 129.68,
+      "path": null,
+      "url": "/uploads/medium_img2_ad6336687b.png"
+    },
+    "small": {
+      "name": "small_img2.png",
+      "hash": "small_img2_ad6336687b",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 500,
+      "size": 63.55,
+      "path": null,
+      "url": "/uploads/small_img2_ad6336687b.png"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "605f9167eff26847f4c0ae1e"
+      },
+      "ref": {
+        "$oid": "605f9167eff26847f4c0ae1d"
+      },
+      "kind": "Products",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-27T20:10:01.816Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-27T20:11:19.448Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "605fd7ded6ecc23a346d332d"
+  },
+  "name": "mozin_profile.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "mozin_profile_68abc45a76",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 196.46,
+  "width": 431,
+  "height": 431,
+  "url": "/uploads/mozin_profile_68abc45a76.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_mozin_profile.png",
+      "hash": "thumbnail_mozin_profile_68abc45a76",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 156,
+      "height": 156,
+      "size": 50.55,
+      "path": null,
+      "url": "/uploads/thumbnail_mozin_profile_68abc45a76.png"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "605fd8cd43e53b4c740140e3"
+      },
+      "ref": {
+        "$oid": "605fd8cd43e53b4c740140e2"
+      },
+      "kind": "ExecutiveTeamContent",
+      "field": "image"
+    },
+    {
+      "_id": {
+        "$oid": "606b5379e2595b38b04eead2"
+      },
+      "ref": {
+        "$oid": "60663e8ce2595b38b04eead0"
+      },
+      "kind": "ExecutiveTeamContent",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-28T01:11:58.177Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-05T18:14:17.651Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "605fd7ded6ecc23a346d332e"
+  },
+  "name": "ash_white.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "ash_white_98e0312e13",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 283.42,
+  "width": 600,
+  "height": 600,
+  "url": "/uploads/ash_white_98e0312e13.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_ash_white.png",
+      "hash": "thumbnail_ash_white_98e0312e13",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 156,
+      "height": 156,
+      "size": 42.95,
+      "path": null,
+      "url": "/uploads/thumbnail_ash_white_98e0312e13.png"
+    },
+    "small": {
+      "name": "small_ash_white.png",
+      "hash": "small_ash_white_98e0312e13",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 500,
+      "size": 314.58,
+      "path": null,
+      "url": "/uploads/small_ash_white_98e0312e13.png"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "605fd8a243e53b4c740140e1"
+      },
+      "ref": {
+        "$oid": "605fd8a243e53b4c740140e0"
+      },
+      "kind": "ExecutiveTeamContent",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-28T01:11:58.575Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-05T18:14:17.652Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "605fd7e1d6ecc23a346d332f"
+  },
+  "name": "ai-page.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "ai_page_d5a1f41bc8",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 2093.95,
+  "width": 3300,
+  "height": 2200,
+  "url": "/uploads/ai_page_d5a1f41bc8.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_ai-page.png",
+      "hash": "thumbnail_ai_page_d5a1f41bc8",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 234,
+      "height": 156,
+      "size": 36.4,
+      "path": null,
+      "url": "/uploads/thumbnail_ai_page_d5a1f41bc8.png"
+    },
+    "large": {
+      "name": "large_ai-page.png",
+      "hash": "large_ai_page_d5a1f41bc8",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 1000,
+      "height": 667,
+      "size": 467.42,
+      "path": null,
+      "url": "/uploads/large_ai_page_d5a1f41bc8.png"
+    },
+    "medium": {
+      "name": "medium_ai-page.png",
+      "hash": "medium_ai_page_d5a1f41bc8",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 750,
+      "height": 500,
+      "size": 280.31,
+      "path": null,
+      "url": "/uploads/medium_ai_page_d5a1f41bc8.png"
+    },
+    "small": {
+      "name": "small_ai-page.png",
+      "hash": "small_ai_page_d5a1f41bc8",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 333,
+      "size": 137.82,
+      "path": null,
+      "url": "/uploads/small_ai_page_d5a1f41bc8.png"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "6060ca15ce0efb50ac7e7d39"
+      },
+      "ref": {
+        "$oid": "6060ca15ce0efb50ac7e7d38"
+      },
+      "kind": "AboutPage",
+      "field": "background"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-28T01:12:01.158Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-01T20:05:55.644Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "6060ca0dce0efb50ac7e7d37"
+  },
+  "name": "rocket-mission-clean-2048x2048.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "rocket_mission_clean_2048x2048_fa4b1b075f",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 286.61,
+  "width": 2048,
+  "height": 2048,
+  "url": "/uploads/rocket_mission_clean_2048x2048_fa4b1b075f.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_rocket-mission-clean-2048x2048.png",
+      "hash": "thumbnail_rocket_mission_clean_2048x2048_fa4b1b075f",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 156,
+      "height": 156,
+      "size": 17.78,
+      "path": null,
+      "url": "/uploads/thumbnail_rocket_mission_clean_2048x2048_fa4b1b075f.png"
+    },
+    "large": {
+      "name": "large_rocket-mission-clean-2048x2048.png",
+      "hash": "large_rocket_mission_clean_2048x2048_fa4b1b075f",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 1000,
+      "height": 1000,
+      "size": 167.27,
+      "path": null,
+      "url": "/uploads/large_rocket_mission_clean_2048x2048_fa4b1b075f.png"
+    },
+    "medium": {
+      "name": "medium_rocket-mission-clean-2048x2048.png",
+      "hash": "medium_rocket_mission_clean_2048x2048_fa4b1b075f",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 750,
+      "height": 750,
+      "size": 114.76,
+      "path": null,
+      "url": "/uploads/medium_rocket_mission_clean_2048x2048_fa4b1b075f.png"
+    },
+    "small": {
+      "name": "small_rocket-mission-clean-2048x2048.png",
+      "hash": "small_rocket_mission_clean_2048x2048_fa4b1b075f",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 500,
+      "size": 69.34,
+      "path": null,
+      "url": "/uploads/small_rocket_mission_clean_2048x2048_fa4b1b075f.png"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "6060ca15ce0efb50ac7e7d3a"
+      },
+      "ref": {
+        "$oid": "6060ca15ce0efb50ac7e7d38"
+      },
+      "kind": "AboutPage",
+      "field": "sideImage"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-28T18:25:17.499Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T18:13:55.154Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264b9823e2349ec9b3ff3"
+  },
+  "name": "financial.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "financial_f89982577f",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 56.06,
+  "width": 800,
+  "height": 600,
+  "url": "/uploads/financial_f89982577f.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_financial.jpg",
+      "hash": "thumbnail_financial_f89982577f",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 208,
+      "height": 156,
+      "size": 9.96,
+      "path": null,
+      "url": "/uploads/thumbnail_financial_f89982577f.jpg"
+    },
+    "medium": {
+      "name": "medium_financial.jpg",
+      "hash": "medium_financial_f89982577f",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 563,
+      "size": 75.98,
+      "path": null,
+      "url": "/uploads/medium_financial_f89982577f.jpg"
+    },
+    "small": {
+      "name": "small_financial.jpg",
+      "hash": "small_financial_f89982577f",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 375,
+      "size": 41.45,
+      "path": null,
+      "url": "/uploads/small_financial_f89982577f.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "6062656e823e2349ec9b4006"
+      },
+      "ref": {
+        "$oid": "6062656e823e2349ec9b4005"
+      },
+      "kind": "ServiceCard",
+      "field": "image"
+    },
+    {
+      "_id": {
+        "$oid": "606627a3e2595b38b04eeacf"
+      },
+      "ref": {
+        "$oid": "6060c997ce0efb50ac7e7d35"
+      },
+      "kind": "ProductsPage",
+      "field": "background"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:29.551Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-01T20:05:55.644Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264bb823e2349ec9b3ff4"
+  },
+  "name": "mobile.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "mobile_bbe4d70c38",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 68.17,
+  "width": 952,
+  "height": 500,
+  "url": "/uploads/mobile_bbe4d70c38.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_mobile.jpg",
+      "hash": "thumbnail_mobile_bbe4d70c38",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 129,
+      "size": 6.09,
+      "path": null,
+      "url": "/uploads/thumbnail_mobile_bbe4d70c38.jpg"
+    },
+    "medium": {
+      "name": "medium_mobile.jpg",
+      "hash": "medium_mobile_bbe4d70c38",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 394,
+      "size": 48.23,
+      "path": null,
+      "url": "/uploads/medium_mobile_bbe4d70c38.jpg"
+    },
+    "small": {
+      "name": "small_mobile.jpg",
+      "hash": "small_mobile_bbe4d70c38",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 263,
+      "size": 23.03,
+      "path": null,
+      "url": "/uploads/small_mobile_bbe4d70c38.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "6062651e823e2349ec9b4000"
+      },
+      "ref": {
+        "$oid": "6062651e823e2349ec9b3fff"
+      },
+      "kind": "ServiceCard",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:31.886Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:39:10.706Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264bb823e2349ec9b3ff5"
+  },
+  "name": "logo.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "logo_9652910f12",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 23.35,
+  "width": 602,
+  "height": 562,
+  "url": "/uploads/logo_9652910f12.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_logo.png",
+      "hash": "thumbnail_logo_9652910f12",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 167,
+      "height": 156,
+      "size": 8.64,
+      "path": null,
+      "url": "/uploads/thumbnail_logo_9652910f12.png"
+    },
+    "small": {
+      "name": "small_logo.png",
+      "hash": "small_logo_9652910f12",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 467,
+      "size": 38.12,
+      "path": null,
+      "url": "/uploads/small_logo_9652910f12.png"
+    }
+  },
+  "provider": "local",
+  "related": [],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:31.937Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:37:31.991Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264bc823e2349ec9b3ff6"
+  },
+  "name": "robot.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "robot_aec2e47426",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 122.49,
+  "width": 1300,
+  "height": 685,
+  "url": "/uploads/robot_aec2e47426.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_robot.jpg",
+      "hash": "thumbnail_robot_aec2e47426",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 129,
+      "size": 7.36,
+      "path": null,
+      "url": "/uploads/thumbnail_robot_aec2e47426.jpg"
+    },
+    "large": {
+      "name": "large_robot.jpg",
+      "hash": "large_robot_aec2e47426",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 527,
+      "size": 79.63,
+      "path": null,
+      "url": "/uploads/large_robot_aec2e47426.jpg"
+    },
+    "medium": {
+      "name": "medium_robot.jpg",
+      "hash": "medium_robot_aec2e47426",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 395,
+      "size": 48.91,
+      "path": null,
+      "url": "/uploads/medium_robot_aec2e47426.jpg"
+    },
+    "small": {
+      "name": "small_robot.jpg",
+      "hash": "small_robot_aec2e47426",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 263,
+      "size": 23.88,
+      "path": null,
+      "url": "/uploads/small_robot_aec2e47426.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "6062653a823e2349ec9b4002"
+      },
+      "ref": {
+        "$oid": "6062653a823e2349ec9b4001"
+      },
+      "kind": "ServiceCard",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:32.044Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-12T17:52:46.332Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264bc823e2349ec9b3ff7"
+  },
+  "name": "augmenify_logo.png",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "augmenify_logo_2f7bc59190",
+  "ext": ".png",
+  "mime": "image/png",
+  "size": 79.38,
+  "width": 3218,
+  "height": 642,
+  "url": "/uploads/augmenify_logo_2f7bc59190.png",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_augmenify_logo.png",
+      "hash": "thumbnail_augmenify_logo_2f7bc59190",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 245,
+      "height": 49,
+      "size": 5.36,
+      "path": null,
+      "url": "/uploads/thumbnail_augmenify_logo_2f7bc59190.png"
+    },
+    "large": {
+      "name": "large_augmenify_logo.png",
+      "hash": "large_augmenify_logo_2f7bc59190",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 1000,
+      "height": 200,
+      "size": 30.71,
+      "path": null,
+      "url": "/uploads/large_augmenify_logo_2f7bc59190.png"
+    },
+    "medium": {
+      "name": "medium_augmenify_logo.png",
+      "hash": "medium_augmenify_logo_2f7bc59190",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 750,
+      "height": 150,
+      "size": 21.88,
+      "path": null,
+      "url": "/uploads/medium_augmenify_logo_2f7bc59190.png"
+    },
+    "small": {
+      "name": "small_augmenify_logo.png",
+      "hash": "small_augmenify_logo_2f7bc59190",
+      "ext": ".png",
+      "mime": "image/png",
+      "width": 500,
+      "height": 100,
+      "size": 12.99,
+      "path": null,
+      "url": "/uploads/small_augmenify_logo_2f7bc59190.png"
+    }
+  },
+  "provider": "local",
+  "related": [],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:32.113Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:37:32.227Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264bc823e2349ec9b3ff8"
+  },
+  "name": "webDev.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "web_Dev_73b34fa425",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 162.23,
+  "width": 1300,
+  "height": 866,
+  "url": "/uploads/web_Dev_73b34fa425.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_webDev.jpg",
+      "hash": "thumbnail_web_Dev_73b34fa425",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 11.1,
+      "path": null,
+      "url": "/uploads/thumbnail_web_Dev_73b34fa425.jpg"
+    },
+    "large": {
+      "name": "large_webDev.jpg",
+      "hash": "large_web_Dev_73b34fa425",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 666,
+      "size": 121.08,
+      "path": null,
+      "url": "/uploads/large_web_Dev_73b34fa425.jpg"
+    },
+    "medium": {
+      "name": "medium_webDev.jpg",
+      "hash": "medium_web_Dev_73b34fa425",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 500,
+      "size": 77.47,
+      "path": null,
+      "url": "/uploads/medium_web_Dev_73b34fa425.jpg"
+    },
+    "small": {
+      "name": "small_webDev.jpg",
+      "hash": "small_web_Dev_73b34fa425",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 333,
+      "size": 40.15,
+      "path": null,
+      "url": "/uploads/small_web_Dev_73b34fa425.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "606264ff823e2349ec9b3ffe"
+      },
+      "ref": {
+        "$oid": "606264ff823e2349ec9b3ffd"
+      },
+      "kind": "ServiceCard",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:32.117Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:38:39.299Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264bc823e2349ec9b3ff9"
+  },
+  "name": "AI.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "AI_af8e1029cb",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 118.61,
+  "width": 864,
+  "height": 486,
+  "url": "/uploads/AI_af8e1029cb.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_AI.jpg",
+      "hash": "thumbnail_AI_af8e1029cb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 245,
+      "height": 138,
+      "size": 12.37,
+      "path": null,
+      "url": "/uploads/thumbnail_AI_af8e1029cb.jpg"
+    },
+    "medium": {
+      "name": "medium_AI.jpg",
+      "hash": "medium_AI_af8e1029cb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 422,
+      "size": 93.56,
+      "path": null,
+      "url": "/uploads/medium_AI_af8e1029cb.jpg"
+    },
+    "small": {
+      "name": "small_AI.jpg",
+      "hash": "small_AI_af8e1029cb",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 281,
+      "size": 45.28,
+      "path": null,
+      "url": "/uploads/small_AI_af8e1029cb.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "606264e6823e2349ec9b3ffc"
+      },
+      "ref": {
+        "$oid": "606264e6823e2349ec9b3ffb"
+      },
+      "kind": "ServiceCard",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:32.200Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:38:14.723Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264bc823e2349ec9b3ffa"
+  },
+  "name": "cloud.jpg",
+  "alternativeText": "",
+  "caption": "",
+  "hash": "cloud_f96db2a146",
+  "ext": ".jpg",
+  "mime": "image/jpeg",
+  "size": 663.14,
+  "width": 3862,
+  "height": 2578,
+  "url": "/uploads/cloud_f96db2a146.jpg",
+  "formats": {
+    "thumbnail": {
+      "name": "thumbnail_cloud.jpg",
+      "hash": "thumbnail_cloud_f96db2a146",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 234,
+      "height": 156,
+      "size": 6.68,
+      "path": null,
+      "url": "/uploads/thumbnail_cloud_f96db2a146.jpg"
+    },
+    "large": {
+      "name": "large_cloud.jpg",
+      "hash": "large_cloud_f96db2a146",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 1000,
+      "height": 668,
+      "size": 51.25,
+      "path": null,
+      "url": "/uploads/large_cloud_f96db2a146.jpg"
+    },
+    "medium": {
+      "name": "medium_cloud.jpg",
+      "hash": "medium_cloud_f96db2a146",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 750,
+      "height": 501,
+      "size": 33.15,
+      "path": null,
+      "url": "/uploads/medium_cloud_f96db2a146.jpg"
+    },
+    "small": {
+      "name": "small_cloud.jpg",
+      "hash": "small_cloud_f96db2a146",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "width": 500,
+      "height": 334,
+      "size": 18.96,
+      "path": null,
+      "url": "/uploads/small_cloud_f96db2a146.jpg"
+    }
+  },
+  "provider": "local",
+  "related": [
+    {
+      "_id": {
+        "$oid": "60626559823e2349ec9b4004"
+      },
+      "ref": {
+        "$oid": "60626559823e2349ec9b4003"
+      },
+      "kind": "ServiceCard",
+      "field": "image"
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-03-29T23:37:32.225Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:40:09.093Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+}]

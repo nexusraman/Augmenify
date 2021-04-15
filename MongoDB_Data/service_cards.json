@@ -1,0 +1,151 @@
+[{
+  "_id": {
+    "$oid": "606264e6823e2349ec9b3ffb"
+  },
+  "title": "AI as a service TEST",
+  "description": "Leverage our cloud and edge AI capabilities for scalable AI solution across industries. ",
+  "published_at": {
+    "$date": "2021-03-29T23:38:16.004Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-29T23:38:14.716Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-05T18:12:42.163Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "606264bc823e2349ec9b3ff9"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "606264ff823e2349ec9b3ffd"
+  },
+  "title": "Web development",
+  "description": "Custom web application development to cater your needs.",
+  "published_at": {
+    "$date": "2021-03-29T23:38:49.176Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-29T23:38:39.292Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:38:49.199Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "606264bc823e2349ec9b3ff8"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "6062651e823e2349ec9b3fff"
+  },
+  "title": "Mobile development",
+  "description": "Cross platform mobile application development with Flutter",
+  "published_at": {
+    "$date": "2021-03-29T23:39:12.637Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-29T23:39:10.699Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:39:12.657Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "606264bb823e2349ec9b3ff4"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "6062653a823e2349ec9b4001"
+  },
+  "title": "Robotic Process Automation",
+  "description": "Automate your routine tasks with our AI-driven software",
+  "published_at": {
+    "$date": "2021-03-29T23:39:40.008Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-29T23:39:38.062Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:39:40.022Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "606264bc823e2349ec9b3ff6"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "60626559823e2349ec9b4003"
+  },
+  "title": "IT infrastructure & Cloud computing",
+  "description": "Optimize your IT infrastructure with our secure on demand scaling capabilities",
+  "published_at": {
+    "$date": "2021-03-29T23:40:10.295Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-29T23:40:09.083Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:40:10.314Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "606264bc823e2349ec9b3ffa"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "6062656e823e2349ec9b4005"
+  },
+  "title": "Financial services",
+  "description": "Outsource your accounting and obtain assurance with smart analytics and timely compliance",
+  "published_at": {
+    "$date": "2021-03-29T23:40:32.324Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-29T23:40:30.636Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T23:40:32.343Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "606264b9823e2349ec9b3ff3"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+}]

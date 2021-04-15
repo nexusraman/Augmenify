@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "605f90cbeff26847f4c0ae1a"
+  },
+  "title": "Restaurant Manager",
+  "description": "THIS IS EDITED WITH STRAPI Managed, coordinated and cohesive functions through the power of an integrated solution for a single or multi locations. Manage it all with Restaurant Operations Management (ROM).",
+  "published_at": {
+    "$date": "2021-03-27T20:11:40.750Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-27T20:08:43.036Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-27T23:59:42.779Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "605f909feff26847f4c0ae19"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+},{
+  "_id": {
+    "$oid": "605f9167eff26847f4c0ae1d"
+  },
+  "title": "Access From Anywhere",
+  "description": "<p>Access ROM from any device from any place for:</p>\n\n<li>Staff management</li>\n<li>Scheduling and time tracking</li>\n<li>Data Management</li>\n<li>Key parameters and Control points</li>\n<li>Reporting and Analytics</li>\n\n\n",
+  "published_at": {
+    "$date": "2021-03-27T20:11:36.362Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-27T20:11:19.441Z"
+  },
+  "updatedAt": {
+    "$date": "2021-03-29T18:11:01.522Z"
+  },
+  "__v": 0,
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "image": {
+    "$oid": "605f9119eff26847f4c0ae1c"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+}]

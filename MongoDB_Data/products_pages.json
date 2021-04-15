@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6060c997ce0efb50ac7e7d35"
+  },
+  "why_pills": [
+    {
+      "$oid": "6060816f43e53b4c740140e4"
+    },
+    {
+      "$oid": "6060818e43e53b4c740140e5"
+    },
+    {
+      "$oid": "606081ab43e53b4c740140e6"
+    }
+  ],
+  "products": [
+    {
+      "$oid": "605f90cbeff26847f4c0ae1a"
+    },
+    {
+      "$oid": "605f9167eff26847f4c0ae1d"
+    },
+    {
+      "$oid": "6064c2d23611d84c344fb91e"
+    }
+  ],
+  "title": "Restaurant Operations Management (ROM)",
+  "published_at": {
+    "$date": "2021-03-28T18:23:21.029Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-28T18:23:19.114Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-01T20:05:55.661Z"
+  },
+  "__v": 0,
+  "background": {
+    "$oid": "606264b9823e2349ec9b3ff3"
+  },
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "why_section": {
+    "$oid": "6060c1c1509c10385480c94a"
+  }
+}]

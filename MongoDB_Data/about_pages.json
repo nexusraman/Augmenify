@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "6060ca15ce0efb50ac7e7d38"
+  },
+  "executive_team_contents": [
+    {
+      "$oid": "605fd8a243e53b4c740140e0"
+    },
+    {
+      "$oid": "605fd8cd43e53b4c740140e2"
+    }
+  ],
+  "title": "Who We Are?",
+  "missionTitle": "Our Mission",
+  "missionDescription": "Our aim is to empower businesses to embrace digitization and artificial intelligence for better operations and decision making",
+  "published_at": {
+    "$date": "2021-03-28T18:25:27.589Z"
+  },
+  "createdAt": {
+    "$date": "2021-03-28T18:25:25.618Z"
+  },
+  "updatedAt": {
+    "$date": "2021-04-12T17:54:35.444Z"
+  },
+  "__v": 0,
+  "background": {
+    "$oid": "605fd7e1d6ecc23a346d332f"
+  },
+  "created_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  },
+  "sideImage": {
+    "$oid": "6060ca0dce0efb50ac7e7d37"
+  },
+  "updated_by": {
+    "$oid": "605f8e70ec057e4f60692dec"
+  }
+}]
