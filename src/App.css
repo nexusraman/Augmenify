@@ -116,3 +116,13 @@
   padding-right: 30px;
   background: white;
 }
+
+.about-image {
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right
+        bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.4)));
+}
+
+.serviceGradient {
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2);
+}

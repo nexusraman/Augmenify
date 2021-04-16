@@ -15,7 +15,8 @@ import {
     DialogContent,
     DialogActions,
     Button,
-    withStyles
+    withStyles,
+    Link
 } from '@material-ui/core/'
 
 const styles = {
@@ -46,6 +47,7 @@ function MainServices(props) {
                             <Grid item xs={12} sm={8} md={6} lg={4}>
                                 <Grow in timeout={2000}>
                                     <CardActionArea>
+                                        {console.log(service)}
                                         <Card className='customCard' onClick={() => setProjectDialog(service)}>
                                             <CardMedia className='customCard_image' key={service.title} image={url + service.image.url} title={service.title} />
                                             <CardContent>
@@ -73,12 +75,14 @@ function MainServices(props) {
 
                 </DialogContent>
                 <DialogActions className='projectDialog_actions'>
-                    {projectDialog?.links?.map(link => (
-                        <a href={link.link} key={link.title} target='_blank' rel="noreferrer">
-                            <Button variant="contained" color="primary" href={link.link}>
+                    {console.log(Services.link)}
+
+                    {Services?.links?.map(link => (
+                        <>
+                            <Link to={link.link} key={link.title} target='_blank' rel="noreferrer"><Button variant="contained" color="primary" href={link.link}>
                                 Read More
-                            </Button>
-                        </a>
+                          </Button></Link>
+                        </>
                     ))}
                 </DialogActions>
             </Dialog>

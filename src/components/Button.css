@@ -3,11 +3,12 @@
 }
 
 .btn {
-  padding: 8px 20px;
+  padding: 20px 20px;
   border-radius: 2px;
   outline: none;
   border: none;
   cursor: pointer;
+  color: white;
 }
 
 .btn--primary {
@@ -25,7 +26,7 @@
 }
 
 .btn--medium {
-  padding: 8px 20px;
+  padding: 15px 20px;
   font-size: 18px;
 }
 
@@ -40,4 +41,9 @@
   background: #fff;
   color: #242424;
   transition: 250ms;
+}
+
+.btn:hover,
+.btn--outline:hover {
+  color: black;
 }

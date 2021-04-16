@@ -1,0 +1,49 @@
+.dropdown-menu {
+  background-image: linear-gradient(15deg, #141e30 0%, #243b55 100%);
+  border-radius: 10px;
+  width: 200px;
+  position: absolute;
+  list-style: none;
+  text-align: start;
+  transition: background 0.5s ease;
+}
+
+ul {
+  transition: all 0.5s;
+}
+
+.dropdown-menu li {
+  background: transparent;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  border-radius: 5px;
+  background-color: #141e30; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #8e9eab,
+    #eef2f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: background 0.5s ease-in-out;
+  color: black;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+}

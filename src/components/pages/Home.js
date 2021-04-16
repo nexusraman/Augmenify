@@ -1,6 +1,5 @@
 import '../../App.css';
 import MainSection from '../MainSection';
-import Footer from '../Footer';
 import React from 'react'
 import MainServices from '../MainServices';
 import axios from 'axios';
@@ -26,7 +25,7 @@ class Home extends React.Component {
     };
 
     render() {
-        const { error, elements, path, serviceCards } = this.state;
+        const { error,serviceCards } = this.state;
 
         if (error) {
             return <div>An error occured: {error.message}</div>;
@@ -36,7 +35,6 @@ class Home extends React.Component {
             <>
                 <MainSection />
                 <MainServices services={serviceCards} />
-                <Footer />
             </>
         );
     }

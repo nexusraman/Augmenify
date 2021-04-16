@@ -1,10 +1,8 @@
 import React from 'react';
 import '../App.css';
 import Container from '@material-ui/core/Container';
-import Slide from '@material-ui/core/Slide';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import parse from 'html-react-parser';
 
 const styles = {
@@ -24,13 +22,11 @@ const styles = {
 };
 
 function LeftSideImageParagraph(props) {
-    const trigger = useScrollTrigger();
-
     return (
         <Container>
             <Grid container direction="row" justify="space-between" alignItems="center">
                 <Grid item xs={12} sm={12} md={6} style={{paddingRight: "20px"}}>
-                    <img style={styles.image} src={props.image} />
+                    <img style={styles.image} alt='leftSide' src={props.image} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} style={{paddingLeft: "20px"}}>
                     <Typography align="left">

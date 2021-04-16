@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Grid } from "@material-ui/core";
 import './PageHeader.css';
 
 function PageHeader(props) {
@@ -27,7 +26,7 @@ function PageHeader(props) {
     return (
         <>
             <div className="header-height-adjuster" style={styles.headerContainer}>
-                <img className="header-height-adjuster" style={styles.image} src={props.image} />
+                <img className="header-height-adjuster" alt='header' style={styles.image} src={props.image} />
                 <h1 style={styles.title}>{props.title}</h1>
             </div>
         </>

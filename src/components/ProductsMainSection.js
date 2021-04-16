@@ -1,8 +1,6 @@
 import React from 'react';
 import '../App.css';
 import './ProductsMainSection.css';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import LeftSideImageParagraph from './LeftSideImageParagraph';
 import RightSideImageParagraph from './RightSideImageParagraph';

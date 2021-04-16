@@ -3,7 +3,6 @@ import ProductsMainSection from '../ProductsMainSection';
 import ContactUsSection from '../ContactUsSection';
 import WhyUsSection from '../WhyUsSection';
 import PageHeader from '../PageHeader';
-import Footer from '../Footer';
 import React from 'react';
 import axios from 'axios';
 
@@ -31,7 +30,7 @@ class Products extends React.Component {
     };
 
     render() {
-        const { error, elements, path, backgroundImage, title, products } = this.state;
+        const { error, backgroundImage, title, products } = this.state;
 
         if (error) {
             return <div>An error occured: {error.message}</div>;
@@ -43,7 +42,6 @@ class Products extends React.Component {
                 <ProductsMainSection items={products}/>
                 <WhyUsSection />
                 <ContactUsSection />
-                <Footer />
             </>
         );
     }

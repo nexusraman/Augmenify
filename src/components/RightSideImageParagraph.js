@@ -1,10 +1,9 @@
 import React from 'react';
 import '../App.css';
-import Slide from '@material-ui/core/Slide';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+//import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Box from '@material-ui/core/Box'
 import parse from 'html-react-parser';
 
@@ -25,7 +24,7 @@ const styles = {
 };
 
 function LeftSideImageParagraph(props) {
-    const trigger = useScrollTrigger();
+   // const trigger = useScrollTrigger();
 
     return (
         <Container>
@@ -40,7 +39,7 @@ function LeftSideImageParagraph(props) {
                 </Box>
                 <Box clone order={{ xs: 1, sm: 1, md: 2 }}>
                     <Grid item xs={12} sm={12} md={6}>
-                        <img style={styles.image} src={props.image}></img>
+                        <img alt='something' style={styles.image} src={props.image}></img>
                     </Grid>
                 </Box>
             </Grid>

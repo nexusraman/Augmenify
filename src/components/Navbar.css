@@ -53,6 +53,7 @@
 
 .nav-links {
   color: #fff;
+  margin: auto 0;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -60,15 +61,38 @@
   height: 100%;
 }
 
-.nav-links:hover {
-  border-bottom: 2px solid #fff;
-  transition: 0.2s;
+.ico {
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: inline-block;
+}
+
+.nav-links::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.nav-links:hover::after {
+  width: 100%;
+  transition: width 0.3s;
 }
 
 .fa-bars {
   color: #fff;
 }
 
+.contact-button {
+  color: white;
+}
+
+.contact-button:hover {
+  color: black;
+}
 .nav-links-mobile {
   display: none;
 }

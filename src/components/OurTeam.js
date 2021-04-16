@@ -5,9 +5,6 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import './OurTeam.css';
 
-const styles = {
-
-};
 
 function OurTeam(props) {
     return (
@@ -21,7 +18,7 @@ function OurTeam(props) {
                 {props.items.map(e =>
                     <>
                         <Grid item xs={12} sm={10} md={5} lg={5} style={{paddingInline: "20px", paddingTop: "150px"}}>
-                            <img className="imgTeamMember" style={{ position: "absolute", borderRadius: "50%", transform: "translate(-50%, -50%)", boxShadow: "0px 2px 6px"}} src={"http://localhost:1337" + e.image.url} />
+                            <img className="imgTeamMember" alt='owner' style={{ position: "absolute", borderRadius: "50%", transform: "translate(-50%, -50%)", boxShadow: "0px 2px 6px"}} src={"http://localhost:1337" + e.image.url} />
                             <Container style={{minHeight: "300px", borderRadius: "20px", boxShadow: "0px 0px 3px"}}>
                                 <Typography>
                                     <h1 style={{ paddingTop: "120px" }}>{e.name}</h1>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button';
+import Dropdown from './Dropdown';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -8,11 +9,26 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     const [navbarLogo, setNavbarLogo] = useState(false);
     const [button, setButton] = useState(true);
-
+    const [dropdown, setDropdown] = useState(false);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
+    const onMouseEnter = () => {
+        if (window.innerWidth < 960) {
+            setDropdown(false);
+        } else {
+            setDropdown(true);
+        }
+    };
+
+    const onMouseLeave = () => {
+        if (window.innerWidth < 960) {
+            setDropdown(false);
+        } else {
+            setDropdown(false);
+        }
+    };
     const showButton = () => {
         if (window.innerWidth <= 960) {
             setButton(false);
@@ -57,8 +73,15 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>Services</Link>
+                        <li className='nav-item'
+                            onMouseEnter={onMouseEnter}
+                            onMouseLeave={onMouseLeave}
+                        >
+                            <Link className='nav-links' onClick={closeMobileMenu}>
+                                Services<i className='fas fa-caret-down ico' />
+                            </Link>
+                            {dropdown && <Dropdown />}
+
                         </li>
                         <li className='nav-item'>
                             <Link to='/products' className='nav-links' onClick={closeMobileMenu}>Products</Link>
@@ -66,7 +89,7 @@ const Navbar = () => {
 
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>
-                        <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>Contact</Link>
+                        <Link to='/contact' className='btn' onClick={closeMobileMenu}>Contact Us</Link>
                     </Button>}
                 </div>
             </nav>

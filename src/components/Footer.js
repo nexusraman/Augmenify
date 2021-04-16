@@ -80,14 +80,6 @@ function Footer() {
                             <i className='fab fa-instagram' />
                         </Link>
                         <Link
-                            className='social-icon-link youtube'
-                            to='/'
-                            target='_blank'
-                            aria-label='Youtube'
-                        >
-                            <i className='fab fa-youtube' />
-                        </Link>
-                        <Link
                             className='social-icon-link twitter'
                             to='/'
                             target='_blank'

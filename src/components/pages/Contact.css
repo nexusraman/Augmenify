@@ -18,6 +18,8 @@ body {
   height: 400px;
   width: 100%;
   object-fit: cover;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right
+        bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.4)));
 }
 
 .main {
@@ -34,17 +36,10 @@ body {
 .centered {
   color: White;
   position: absolute;
-  font-size: 60px;
+  font-size: 35px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -250%);
-}
-.centered2 {
-  color: White;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -550%);
 }
 
 .wrapper {
@@ -242,4 +237,11 @@ ul li a.fa-google-plus:hover {
     margin-bottom: 15px;
     width: 100%;
   }
+}
+.service-cards {
+  padding: 20px;
+}
+
+.service-color {
+  background-color: turquoise;
 }
