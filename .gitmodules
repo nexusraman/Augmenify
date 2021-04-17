@@ -1,0 +1,3 @@
+[submodule "AugmenifyCMS"]
+	path = AugmenifyCMS
+	url = https://github.com/MHaponov/AugmenifyCMS.git
