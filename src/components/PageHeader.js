@@ -27,7 +27,7 @@ function PageHeader(props) {
         <>
             <div className="header-height-adjuster" style={styles.headerContainer}>
                 <img className="header-height-adjuster" alt='header' style={styles.image} src={props.image} />
-                <h1 style={styles.title}>{props.title}</h1>
+                <h1 className="text-adjuster" style={styles.title}>{props.title}</h1>
             </div>
         </>
     );

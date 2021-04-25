@@ -11,10 +11,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
 import WhyUs from './components/WhyUsSection';
+
+
 function App() {
   return (
     <div className='App'>
-
       <Router>
         <ScrollToTop>
           <Navbar />
@@ -30,7 +31,6 @@ function App() {
             <Route path='/FinancialServices' exact component={ServicePage} />
             <Route path='/ITInfrastructure' exact component={ServicePage} />
           </Switch>
-          <WhyUs />
           <Footer />
         </ScrollToTop>
       </Router>

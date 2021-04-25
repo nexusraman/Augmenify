@@ -3,14 +3,14 @@ import '../App.css';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
-//import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Box from '@material-ui/core/Box'
 import parse from 'html-react-parser';
+import '../css/SideImageParagraph.css'
 
 const styles = {
     productsContainer: {
-        paddingTop: "10px",
-        paddingBottom: "10px"
+        paddingTop: "20px",
+        paddingBottom: "20px"
     },
     description: {
         display: "flex",
@@ -19,19 +19,20 @@ const styles = {
     image: {
         width: "100%",
         maxWidth: "600px",
-        height: "auto",
+        maxHeight: "400px",
+        objectFit: "cover",
+        borderRadius: "10px",
+        boxShadow: "1px 2px 3px rgba(0,0,0,.5)"
     }
 };
 
 function LeftSideImageParagraph(props) {
-   // const trigger = useScrollTrigger();
-
     return (
-        <Container>
+        <Container style={styles.productsContainer}>
             <Grid container direction="row" alignItems="center">
                 <Box clone order={{ xs: 2, sm: 2, md: 1 }} style={{paddingRight: "20px"}}>
                     <Grid item xs={12} sm={12} md={6}>
-                        <Typography align="left" >
+                        <Typography align="left" variant="paragraph" className="text" >
                             <h2 style={{fontSize: "40px", paddingBottom: "20px"}}>{props.title}</h2>
                             <p style={{fontSize: "24px", }}>{parse(props.description)}</p>
                         </Typography>

@@ -6,9 +6,9 @@ import { CardActionArea } from "@material-ui/core";
 
 const styles = {
     contactMeContainer: {
-        paddingTop: "70px",
+        paddingTop: "60px",
         paddingBottom: "90px",
-        backgroundImage: "#f1f1f1"
+        backgroundColor: "#f1f1f1"
     },
     text: {
         paddingBottom: "50px"
@@ -20,7 +20,6 @@ export default function WhyUs(props) {
         <CardActionArea>
             <div style={styles.contactMeContainer}>
                 <Container>
-
                     <Typography align="center" style={styles.text}>
                         <h1>Why ROM?</h1>
                     </Typography>

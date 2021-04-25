@@ -2,7 +2,8 @@ import { Card, Typography, CardActionArea, Box, Container } from '@material-ui/c
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-
+import PageHeader from '../../PageHeader';
+import ContactUsSection from '../../ContactUsSection';
 import ServicesData from '../../../util/ServicesData'
 
 const useStyles = makeStyles((theme) => ({
@@ -33,17 +34,8 @@ export default function ArtificialIntelligence(props) {
     }
     return (
         <React.Fragment>
-
-            <>
-                <div>
-                    {console.log(serv)}
-                </div>
-                <div className='AI-main'>
-                    <img className='ImageContainer' alt='contact' src={serv.imageLink}></img>
-                    <div className='centered'>{serv.headerCaption}</div>
-                </div>
-
-
+            <PageHeader title={serv.headerCaption} image={serv.imageLink} />
+            <div style={{ paddingBottom: "50px" }}>
                 <Typography variant='h2' align='center' m={2}>
                     <Box letterSpacing={1} m={3}>{serv.name}</Box>
                 </Typography>
@@ -52,9 +44,8 @@ export default function ArtificialIntelligence(props) {
                 <div>
                     {serv.services.map((service) => (
                         <Container maxWidth="lg">
-
-                            <Grid className='service-cards' width="auto" item xs={12} md={12} >
-                                <Box boxShadow={10}>
+                            <Grid className='service-cards' width="auto" item xs={12} md={12}>
+                                <Box boxShadow={2}>
                                     <Card className={classes.root} variant="outlined">
                                         <CardActionArea>
                                             <Typography align='center' gutterBottom variant="h4" component="h6">
@@ -66,23 +57,16 @@ export default function ArtificialIntelligence(props) {
                                                 <Box className='boxMargin' m={3} letterSpacing={1} lineHeight={1.5}>
                                                     {service.description}
                                                 </Box>
-
                                             </Typography>
-
-
-
                                         </CardActionArea>
-
                                     </Card>
                                 </Box>
                             </Grid>
-
                         </Container>
-
                     ))}
                 </div>
-            </>
-
+            </div>
+            <ContactUsSection />
 
         </React.Fragment >
     )

@@ -1,7 +1,7 @@
 const ServicesData = {
     Artificial: {
         name: 'Artificial Intelligence',
-        headerCaption: 'STAND OUT WITH DATA DRIVEN INSIGHTS',
+        headerCaption: 'Stand Out With Data Driven Insights',
         caption: 'Model development to scalable deployment for data driven insights',
         imageLink: process.env.PUBLIC_URL + 'images/AiInfo.jpg',
         services: [
@@ -20,7 +20,7 @@ const ServicesData = {
     },
     WebDev: {
         name: 'Web Development',
-        headerCaption: 'SOLUTIONS TO COMPLEX PROBLEMS',
+        headerCaption: 'Solutions To Complex Problems',
         caption: 'From concept to reality, we deliver !',
         imageLink: process.env.PUBLIC_URL + 'images/web.jpg',
         services: [
@@ -39,7 +39,7 @@ const ServicesData = {
     },
     MobDev: {
         name: 'Mobile Development',
-        headerCaption: 'BUILD APPS TO REACH ALL PHONES',
+        headerCaption: 'Build Apps To Reach All Phones',
         caption: 'Build cross platform mobile apps to reach users everywhere',
         imageLink: process.env.PUBLIC_URL + 'images/mobdev.jpg',
         services: [
@@ -58,7 +58,7 @@ const ServicesData = {
     },
     Robotic: {
         name: 'Robotic Process Automation',
-        headerCaption: 'AUTOMATE YOUR TASKS',
+        headerCaption: 'Automate Your Tasks',
         caption: 'Automate your repetitive tasks to focus on your core business',
         imageLink: process.env.PUBLIC_URL + 'images/robotics.jpg',
         services: [
@@ -74,7 +74,7 @@ const ServicesData = {
     },
     ITInfrastructure: {
         name: 'IT Infrastructure',
-        headerCaption: 'BUILD SECURE SCALABLE IT INFRASTRUCTURE',
+        headerCaption: 'Build Secure Scalable IT Infrastructure',
         caption: '',
         imageLink: process.env.PUBLIC_URL + 'images/infra.jpeg',
         services: [
@@ -90,7 +90,7 @@ const ServicesData = {
     },
     Financial: {
         name: 'Financial Services',
-        headerCaption: 'FINANCIAL SERVICES',
+        headerCaption: 'Financial Services',
         caption: 'Outsource your finance functioning to focus on your core business',
         imageLink: process.env.PUBLIC_URL + 'images/financialSev.jpg',
         services: [

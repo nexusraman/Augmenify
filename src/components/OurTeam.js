@@ -14,7 +14,7 @@ function OurTeam(props) {
                 align="center" 
                 justify="center" 
                 direction="row"
-                style={{paddingBottom: "50px"}}>
+                style={{paddingBottom: "80px"}}>
                 {props.items.map(e =>
                     <>
                         <Grid item xs={12} sm={10} md={5} lg={5} style={{paddingInline: "20px", paddingTop: "150px"}}>

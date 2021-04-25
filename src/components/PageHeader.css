@@ -1,29 +1,32 @@
 @media (min-width: 320px) {
   .header-height-adjuster {
-    height: 150px;
-    font-size: 10px;
+    height: 250px;
+    font-size: 12px;
+  }
+  .text-adjuster {
+    padding-top: 100px;
   }
 }
 @media (min-width: 480px) {
   .header-height-adjuster {
-    height: 200px;
-    font-size: 12px;
+    height: 300px;
+    font-size: 14px;
   }
 }
 @media (min-width: 640px) {
   .header-height-adjuster {
-    height: 250px;
+    height: 300px;
     font-size: 16px;
   }
 }
 @media (min-width: 960px) {
   .header-height-adjuster {
-    height: 300px;
+    height: 350px;
     font-size: 20px;
   }
 }
 
-.header-height-adjuster {
+.header-height-adjuster img {
   -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right
         bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.4)));
 }

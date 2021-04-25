@@ -2,7 +2,6 @@ import React from 'react';
 import axios from 'axios';
 import OurTeam from '../OurTeam';
 import PageHeader from '../PageHeader';
-import Footer from '../Footer';
 import ContactUsSection from '../ContactUsSection';
 import { Grid, Typography, Container, Box } from '@material-ui/core'
 
@@ -69,7 +68,6 @@ class AboutApp extends React.Component {
                 <h1 style={{ textAlign: "center", paddingTop: "50px", fontSize: "40px" }}>Our Executive Team</h1>
                 <OurTeam items={execTeam} />
                 <ContactUsSection />
-                <Footer />
             </div>
         );
     }

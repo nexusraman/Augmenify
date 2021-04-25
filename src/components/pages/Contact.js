@@ -50,23 +50,25 @@ class Contact extends React.Component {
     render() {
         return (
             <>
+
                 <div >
                     <div className='main'>
                         <img className='ImageContainer' alt='contact' src={process.env.PUBLIC_URL + '/images/contact.jpeg'}></img>
                         <div className='centered'>Contact Us</div>
-                        <div className='centered2'>Reach out us, We are waiting to interact with you.</div>
                     </div>
+                    <h2 className='centered2'>Reach out us, We are waiting to interact with you.</h2>
                     <div className="wrapper">
                         <div className="left">
+
                             <div className="detail">
-                                <h2>Address</h2>
-                                <p>230, Ellisbridge Shopping Center, Ahmedabad, India</p>
+                                <p>Address</p>
+                                <div>230, Ellisbridge Shopping Center, Ahmedabad, India</div>
 
-                                <h2>call us</h2>
-                                <p>+1-647-273-7867</p>
+                                <p>Call us</p>
+                                <div style={{ color: 'lightseagreen' }}>+1-647-273-7867</div>
 
-                                <h2>Email us</h2>
-                                <p>sales@augmenify.com</p>
+                                <p>Email us</p>
+                                <div style={{ color: 'lightseagreen ' }}>sales@augmenify.com</div>
                                 <div>
                                     <ul className="social_links row no-bullets">
                                         <li className="twitter animated bounceIn wow delay-02s"><a className="list" href="https://www.facebook.com/pages/Augmenify-Infotech-Pvt-Ltd/110210953868190"><i className="fa fa-twitter"></i></a></li>
